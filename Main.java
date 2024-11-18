@@ -1,8 +1,9 @@
-public class Main{
-    public static void main(String[] args){
-        int[] table = {1, 2, 3, 4, 5};
-        for(int i: table){
-            System.out.println(i);
+import java.util.random;
+public class Main {
+    public static void main(String[] args) {
+        // Crear tabla y llenarla con valores aleatorios
+        int[] table = new int[10];
+        Random random = new Random();
+        for (int i = 0; i < table.length; i++) {
+            table[i] = random.nextInt(100); // Valores entre 0 y 99
         }
-    }
-}
