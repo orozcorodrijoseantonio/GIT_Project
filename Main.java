@@ -20,5 +20,8 @@ public class Main {
 
         System.out.println("Sorted table: ");
         System.out.println(Arrays.toString(table));
+
+        System.out.println("This is more code for the point n)");
+
     }
 }
