@@ -7,7 +7,7 @@ public class Main {
         int[] table = new int[10];
         Random random = new Random();
         for (int i = 0; i < table.length; i++) {
-            table[i] = random.nextInt(100) + 1; // Valores entre 0 y 99
+            table[i] = random.nextInt(100); // Valores entre 0 y 99
         }
 
         // Imprimir los valores de la tabla
